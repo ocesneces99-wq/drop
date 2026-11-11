@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "humanlikerecorder",
+  "version": "${version}",
+  "name": "Human-Like Mouse & Keyboard Recorder",
+  "description": "Record your keyboard and mouse once, then replay it in an endless loop with small, natural mouse variations.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.humanlike.mkr.HumanLikeRecorderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
